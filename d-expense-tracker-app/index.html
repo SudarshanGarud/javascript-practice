@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xpensify</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Xpensify</h1>
+    
+    <div class="container">
+        <div class="group">
+            <input type="text" placeholder="Add expense name" id="expenseName">
+            <input type="number" placeholder="₹000" id="expenseAmount">
+        </div>
+        <button class="primary-button" id="addBtn">Add</button>
+    </div>
+
+    <h2>Total: ₹<span id="totalAmount">0</span></h2>
+    <ul id="expenseList"></ul>
+    
+    <script src="script.js"></script>
+</body>
+</html>

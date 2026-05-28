@@ -1,0 +1,69 @@
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: green;
+}
+
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: gray;
+}
+
+input {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    color: gray;
+    padding: 6px 8px;
+    border: solid 1px;
+    border-color: lightgray;
+    border-radius: 8px;
+}
+
+input:focus {
+    border-color: green;
+    outline: none;
+}
+
+.primary-button {
+    background-color: green;
+    color: white;
+    padding: 6px 16px;
+    border-radius: 8px;
+    border: none;
+}
+
+button {
+    background-color: white;
+    color: red;
+    padding: 4px 8px;
+    border: solid 1px;
+    border-radius: 8px;
+}
+
+.container {
+    display: flex;
+    gap: 6px;
+}
+
+.group {
+    display: flex;
+    gap: 4px;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+li {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    list-style: none;
+
+    display: flex;
+    gap: 8px;
+}
